@@ -23,19 +23,19 @@
 </table>
 
 <br>
-User: <%= select_tag 'user_id', options_for_select(@users.collect{ |u| [u.user_name, u.id] }), prompt: 'Please select user' ,remote: true, data_url: url_for(controller: 'Users', action: 'populate_post'), style: 'margin-left:3%;' %><br><br/>
+User: <%= select_tag 'user_id', options_for_select(@users.collect{ |u| [u.user_name, u.id] }), prompt: 'Please select user' , onclick: {function()} ,  style: 'margin-left:3%;' %><br><br/>
 Post: <%= select_tag 'post_id','' , prompt: 'Please select post', style: 'margin-left:3%;' %> <br/><br/>
 Comment: <%= select_tag 'comment_id','' , prompt: 'Please select comment' %>
 
 <br>
 <%= link_to 'New User', new_user_path %>
 
-
+<!--onchange: {remote: true, data_url: url_for(controller: 'users', action: 'populate_post', method: :get)},-->
 <!--<script>-->
 
-//  $('#user_id').click(function(){
-//      alert($('#user_id').val());
-//      $('#post_id').acceptData()
-//
-//  })
+<!--//  $('#user_id').click(function(){-->
+<!--//      alert($('#user_id').val());-->
+<!--//      $('#post_id').acceptData()-->
+<!--//-->
+<!--//  })-->
 <!--</script>-->

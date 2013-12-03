@@ -1,6 +1,6 @@
 DropdownAppearenceThruAjax::Application.routes.draw do
   resources :users do
-    member do
+    collection do
       get 'populate_post'
     end
   end
