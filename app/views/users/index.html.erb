@@ -1,0 +1,41 @@
+<h1>Listing users</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User name</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.user_name %></td>
+        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+User: <%= select_tag 'user_id', options_for_select(@users.collect{ |u| [u.user_name, u.id] }), prompt: 'Please select user' ,remote: true, data_url: url_for(controller: 'Users', action: 'populate_post'), style: 'margin-left:3%;' %><br><br/>
+Post: <%= select_tag 'post_id','' , prompt: 'Please select post', style: 'margin-left:3%;' %> <br/><br/>
+Comment: <%= select_tag 'comment_id','' , prompt: 'Please select comment' %>
+
+<br>
+<%= link_to 'New User', new_user_path %>
+
+
+<!--<script>-->
+
+//  $('#user_id').click(function(){
+//      alert($('#user_id').val());
+//      $('#post_id').acceptData()
+//
+//  })
+<!--</script>-->
