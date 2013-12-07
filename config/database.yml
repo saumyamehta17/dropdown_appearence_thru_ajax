@@ -52,10 +52,10 @@ development:
 #  username: dropdown_appearence_thru_ajax
 #  password:
 #
-#production:
-#  adapter: postgresql
-#  encoding: unicode
-#  database: dropdown_appearence_thru_ajax_production
-#  pool: 5
-#  username: dropdown_appearence_thru_ajax
-#  password:
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: dropdown_appearence_thru_ajax_production
+  pool: 5
+  username: postgres
+  password: p@ssw0rd

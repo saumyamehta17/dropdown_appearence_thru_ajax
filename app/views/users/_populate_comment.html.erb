@@ -1,0 +1,1 @@
+<%= select_tag 'comment_id', options_for_select( find_comments_for_post(params[:post_id]) ) , prompt: 'Please select comment', style: 'margin-left:3%;' %><br/>

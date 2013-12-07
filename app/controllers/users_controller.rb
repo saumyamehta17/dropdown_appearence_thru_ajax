@@ -61,6 +61,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def populate_post
+    respond_to do |format|
+      format.js {}
+    end
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
@@ -72,7 +77,5 @@ class UsersController < ApplicationController
       params.require(:user).permit(:user_name)
     end
 
-    def populate_post
-      debugger
-    end
+
 end
