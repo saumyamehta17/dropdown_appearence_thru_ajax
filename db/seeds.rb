@@ -5,7 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
+User.delete_all
+Post.delete_all
+Comment.delete_all
 User.create!([{user_name: 'John'},{user_name: 'Steve'}])
 puts "Users created"
 User.first.posts.create!([{post_name: 'Life'},{post_name: 'Jungle Book'}])

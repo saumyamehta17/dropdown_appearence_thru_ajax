@@ -17,7 +17,7 @@
     <file path="/_populate_post.html.erb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386444107224" ignored="false" />
     <file path="/users_helper.rb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386444581120" ignored="false" />
     <file path="/_populate_comment.html.erb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386444799366" ignored="false" />
-    <file path="/seeds.rb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386445513488" ignored="false" />
+    <file path="/seeds.rb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386446770904" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386445473555" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,19 +92,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="62" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+            <state line="9" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.23809524">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="2" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.78835976">
+            <state line="59" column="2" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,8 +151,8 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_populate_comment.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/populate_post.js.erb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -691,16 +691,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="62" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+        <state line="59" column="2" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="2" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.78835976">
+        <state line="9" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.23809524">
           <folding />
         </state>
       </provider>
