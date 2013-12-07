@@ -19,6 +19,7 @@
     <file path="/_populate_comment.html.erb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386444799366" ignored="false" />
     <file path="/seeds.rb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386446770904" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386445473555" ignored="false" />
+    <file path="/production.rb" changelist="d58bc99a-6537-4005-a1e9-484d157cd389" time="1386447582174" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,10 +84,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.23809524">
+            <state line="9" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="31" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.6878307">
               <folding />
             </state>
           </provider>
@@ -153,6 +154,7 @@
         <option value="$PROJECT_DIR$/app/views/users/populate_post.js.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -597,13 +599,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -700,7 +695,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.23809524">
+        <state line="9" column="8" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.6878307">
           <folding />
         </state>
       </provider>
