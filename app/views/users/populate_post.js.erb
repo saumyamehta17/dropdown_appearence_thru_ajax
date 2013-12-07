@@ -1,6 +1,7 @@
-<% if params[:post_id].present? %>
+<% unless params[:post_id].blank? %>
  $('#comment_id').replaceWith(" <%= j (render 'populate_comment') %>");
-<% else %>
- $('#submit').hide();
+<% end %>
+<% unless params[:user_id].blank? %>
+// $('#submit').remove();
  $('#post_id').replaceWith(" <%= j (render 'populate_post') %>");
 <% end %>

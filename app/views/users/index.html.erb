@@ -25,9 +25,9 @@
 <br>
 <%= form_tag(populate_post_users_path, method: :get, remote: true) do %>
   User: <%= select_tag 'user_id', options_for_select(@users.collect{ |u| [u.user_name, u.id] }), prompt: 'Please select user' ,  style: 'margin-left:3%;' %><br><br/>
-        <%= submit_tag 'submit', id: 'submit' %>       <br/>
     Post: <%= select_tag 'post_id','' , prompt: 'Please select post', style: 'margin-left:3%;' %> <br/><br/>
-    Comment: <%= select_tag 'comment_id','' , prompt: 'Please select comment' %>
+    Comment: <%= select_tag 'comment_id','' , prompt: 'Please select comment' %><br/>
+    <%= submit_tag 'submit', id: 'submit' %>
 <% end %>
 
 <br>
