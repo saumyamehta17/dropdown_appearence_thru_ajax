@@ -1,1 +1,1 @@
-<%= select_tag 'post_id', options_for_select( find_posts_for_user(params[:user_id]) ) , prompt: 'Please select post', style: 'margin-left:3%;' %>
+<%= select_tag 'post_id', options_for_select( find_posts_for_user(params[:user_id]) ) , prompt: 'Please select post', style: 'margin-left:3%;', onchange: "$('#submit_form').submit();" %>

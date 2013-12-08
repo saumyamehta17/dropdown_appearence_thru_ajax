@@ -1,0 +1,6 @@
+<%= form_tag(create_post_users_path, method: :get)  do %>
+   <%= label_tag 'Post Name' %>    <br/>
+   <%= text_field_tag 'post_name' %>
+   <%= submit_tag 'create_post' %>
+   <%= hidden_field_tag 'user', user %>
+<% end %>

@@ -23,11 +23,12 @@
 </table>
 
 <br>
-<%= form_tag(populate_post_users_path, method: :get, remote: true) do %>
-  User: <%= select_tag 'user_id', options_for_select(@users.collect{ |u| [u.user_name, u.id] }), prompt: 'Please select user' ,  style: 'margin-left:3%;' %><br><br/>
+<%= form_tag(populate_post_users_path, method: :get, remote: true, id: 'submit_form') do %>
+    <!--for form_tag we have to give id to run onchange and for form_form we can use "this.form.submit();"-->
+    User: <%= select_tag 'user_id', options_for_select(@users.collect{ |u| [u.user_name, u.id] }), prompt: 'Please select user' ,  style: 'margin-left:3%;', onchange: "$('#submit_form').submit();" %><br><br/>
     Post: <%= select_tag 'post_id','' , prompt: 'Please select post', style: 'margin-left:3%;' %> <br/><br/>
     Comment: <%= select_tag 'comment_id','' , prompt: 'Please select comment' %><br/>
-    <%= submit_tag 'submit', id: 'submit' %>
+    <%#= submit_tag 'submit', id: 'submit' %>
 <% end %>
 
 <br>

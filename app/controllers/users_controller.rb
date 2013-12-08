@@ -66,6 +66,16 @@ class UsersController < ApplicationController
       format.js {}
     end
   end
+
+  def create_post
+    if params[:post_name].present?
+      User.find(params[:user]).posts.create!(post_name: params[:post_name])
+      redirect_to root_url and return
+    end
+    respond_to do |format|
+      format.js {}
+    end
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
